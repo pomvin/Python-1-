@@ -9,18 +9,6 @@
 # 385916 -> yes
 # 123456 -> no
 
-"""num = int(input("Введите шестизначное число: "))
-s1 = num[0] + num[1] + num[2]
-s2 = num[3] + num[4] + num[5]
-if s1 == s2:
-  print("YES")
-else:
-  print("NO")"""
-  
-"""n = int(input())
-d = list(map(int, list(f'{n:06}')))
-print(('NO', 'YES')[sum(d[:3])==sum(d[3:])])"""
-
 num = int(input("Введите номер билета :"))
 
 a = num // 1000
@@ -39,6 +27,6 @@ d6 = b % 10
 sum2 = d4 + d5 + d6
 print ("Сумма последних трех чисел--->",sum2)
 if sum1 == sum2:
-  print("YES, ВЫИГРЫШ")
+  print("YES")
 else:
-  print("NO, ПРОИГРЫШ")
+  print("NO")
